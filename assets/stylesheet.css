@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #caf8f7;
+}
+
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    page-break-after: always;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    font-family: 'Beth Ellen', sans-serif;
+    font-size: 22px;
+    background:  #76d7c4 
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    padding-bottom: 0px;
+}
+
+nav img {
+    float: left;
+    padding-top: 15px;
+    padding-right: 25px;
+
+    position: relative;
+}
+
+nav h1 {
+    float: left;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 30px;
+    font-family: 'Poor Story', sans-serif;
+    font-size: 26px;
+    padding-bottom: 5px;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    position: relative;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.container-two h1 {
+    margin-top: 30px;
+    left: 200px;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'Poor Story', sans-serif;
+}
+
+.container-two img {
+    clear: both;
+}
+
+.container-two h2 {
+    right: 100px;
+    position: relative;
+    font-family: 'Poor Story', sans-serif;
+}
