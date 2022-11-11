@@ -71,7 +71,7 @@ nav li {
     margin-left: 100px;
     padding-top: 30px;
     font-family: 'Poor Story', sans-serif;
-    font-size: 26px;
+    font-size: 23px;
     padding-bottom: 5px;
 }
 
@@ -120,4 +120,10 @@ nav a:hover::before {
     right: 100px;
     position: relative;
     font-family: 'Poor Story', sans-serif;
+}
+
+.container-two img {
+    box-shadow: 5px 5px lightsalmon;
+    border-style: solid;
+    border-width: 3px 3px;
 }
