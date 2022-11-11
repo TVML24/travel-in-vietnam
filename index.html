@@ -25,7 +25,12 @@
         </header>
         <div class = "container-two">
         <h1> Where would you like to explore...?</h1>
-            <img src = "./assets/vietnam-map.jpg" alt = "Click on a place to begin!" width = "60%" height = "800px" class = "centre"/>
+        <map name = "viet-map">
+            <area shape = "rect" coords = "147, 110, 615, 250" href = "./pages/north-vietnam.html">
+            <area shape = "rect" coords = "240, 250, 750, 580" href = "./pages/central-highlands.html">
+            <area shape = "rect" coords = "110, 750, 770, 580" href = "./pages/south-vietnam.html">
+        </map>
+            <img src = "./assets/vietnam-map.jpg" alt = "Click on a place to begin!" width = "60%" height = "800px" class = "centre" usemap = "#viet-map"/>
             <h2>Click on the map to start exploring!</h2>
         </div>
     </body>
