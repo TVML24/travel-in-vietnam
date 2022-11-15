@@ -127,3 +127,67 @@ nav a:hover::before {
     border-style: solid;
     border-width: 3px 3px;
 }
+
+.input-container-two h2, 
+.input-container-one, 
+.input-container-three h2 {
+    right: 100px;
+    position: relative;
+    font-family: 'Poor Story', sans-serif;
+    font-size: 30px;
+}
+
+.input-container-two input, 
+.input-container-one input, 
+.input-container-three input {
+    display: block;
+    align-items: center;
+    padding: 6px;
+    border: 3px gray;
+    margin-top: 45px;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    position: relative;
+}
+
+.wrapper {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.row {
+    display: inline-grid;
+    grid-template-columns: 1fr, 1fr;
+}
+
+.cvn-card-container, .nvn-card-container, .svn-card-container {
+    padding-top: 30px;
+}
+
+.nvncard, .cvncard, .svncard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-family: 'Poor Story', sans-serif;
+    background-color: #e8f8f5;
+}
+
+.cvncard:hover, .nvncard:hover, .svncard:hover {
+    opacity: 0.7;
+}
+
+.subtitle {
+    color: limegreen;
+    font-style: italic;
+    font-size: 20px;
+}
