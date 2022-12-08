@@ -1,0 +1,133 @@
+@media screen and (min-width: 901px) {
+    #button {
+        position:relative;
+        left: 38%;
+        font-size: 26px;
+        top: 5%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .suggestion-container {
+        flex-direction: column;
+    }
+    #column {
+        margin: auto;
+        height: 800px;
+        width: 72%;
+        justify-self:center;
+        background-repeat: no-repeat;
+    }
+    .suggestion-form {
+        width: 94%;
+        margin: 3%;
+    }
+    #placename {
+        height: 250px;
+        width: 600px;
+    }
+    #suggestion-details {
+        height: 250px;
+        width: 600px;
+    }
+
+    #button {
+        position:relative;
+        left: 38%;
+        font-size: 26px;
+    }
+    .suggestion-aside{
+        width: 94%;
+        margin: 3%;
+    }
+    nav li {
+        display: block;
+        float: left;
+        padding-top: 10px;
+        font-family: 'Poor Story', sans-serif;
+        font-size: 17px;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .suggestion-container {
+        flex-direction: column;
+  }
+    #column {
+        margin: auto;
+        height: 800px;
+        width: 72%;
+        justify-self:center;
+        background-repeat: no-repeat;
+    }
+    .suggestion-form {
+        width: 94%;
+        margin: 3%;
+    }
+    #placename {
+        height: 250px;
+        width: 400px;
+    }
+    #suggestion-details {
+        height: 250px;
+        width: 400px;
+    }
+
+    #button {
+        position:relative;
+        left: 38%;
+        font-size: 26px;
+    }
+    .suggestion-aside{
+        width: 94%;
+        margin: 3%;
+    }
+    nav li {
+        display: block;
+        float: left;
+        padding-top: 10px;
+        font-family: 'Poor Story', sans-serif;
+        font-size: 17px;
+        padding-bottom: 5px;
+    }
+}
+
+  @media screen and (max-width: 480px) {    
+    .suggestion-container {
+        flex-direction: column;
+  }
+    #column {
+        display: none;
+    }
+    .suggestion-form {
+        width: 94%;
+        margin: 3%;
+    }
+    #placename {
+        height: 100px;
+        width: 250px;
+    }
+    #suggestion-details {
+        height: 100px;
+        width: 250px;
+    }
+
+    #button {
+        position:relative;
+        left: 38%;
+        font-size: 26px;
+    }
+    .suggestion-aside{
+        width: 94%;
+        margin: 3%;
+    }
+    nav li {
+        display: block;
+        float: left;
+        padding-top: 10px;
+        font-family: 'Poor Story', sans-serif;
+        font-size: 17px;
+        padding-bottom: 5px;
+    }
+}
